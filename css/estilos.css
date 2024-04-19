@@ -1,3 +1,9 @@
+#wapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 #imagen-encabezado {
     width: 100%;
 }
@@ -24,7 +30,7 @@
 .apa4 {
     background-color:#2884e0;
     display: flex;
-    margin: 0;
+    margin: 0px;
 }
 .cuatroimagenes-2 {
     display: flex;
