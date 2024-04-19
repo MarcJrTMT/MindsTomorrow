@@ -1,0 +1,240 @@
+#imagen-encabezado {
+    width: 100%;
+}
+.encabezado-texto {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.apa1y3 {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.fila5 {
+    background-color: #52dea4;
+    display: flex;
+    margin: 0;
+}
+.apa4 {
+    background-color:#2884e0;
+    display: flex;
+    margin: 0;
+}
+.cuatroimagenes-2 {
+    display: flex;
+}
+.apa2-cuatroi {
+    width: 25%;
+    background-color: #2884e0;
+}
+.apartado-arriba {
+    width: 100%;
+    margin-top: 6%;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.apa4-txt {
+    width: 95%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2.5%;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.apartado-izq {
+    width: 50%;
+}
+.apartado-der {
+    width: 50%;
+}
+.apartado-abajo {
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 4%;
+    text-align: left;
+}
+.apa6 {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    color: white;
+}
+.apa6-2 {
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.apa6-1 {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 4%;
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.imagen-izquierda {
+    margin-left: 8%;
+}
+.imagen-derecha {
+    margin-right: 8%;
+}
+body { 
+    width: 100%;
+    margin-top: auto;
+    margin: 0;
+}
+.txt1-f1 {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.txt2-f1 {
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #039665;
+}
+.txt-apa1y3 {
+    margin-left: 12%;
+    margin-top: 12%;
+    font-size: 70px;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 15%;
+}
+.txt2-apa1y3 {
+    margin-left: 12%;
+    font-size: 40px;
+    margin-right: 12%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 12%;
+}
+.section-1 {
+    margin-top: 9%;
+    width: 600px;
+}
+.section-3 {
+    margin-top: 20%;
+    width: 600px;
+    margin-left: 25%;
+}
+.txtabajo {
+    width: 100%;
+    margin-right: 8%;
+}
+.apa2-txt {
+    width: 100%;
+    margin-right: 8%;
+    text-align: center;
+}
+.imagenes-apa4 {
+    width: 100%;
+    margin: 0;
+}
+@media screen and (max-width:768px){
+    #imagen-encabezado {
+        height: 20%;
+    }
+    .encabezado-texto {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .apa1y3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-1 {
+        margin-top: 0%;
+        width: 450px;
+        margin-left: 4%;
+    }
+    .apartado-izq {
+        width: 100%;
+    }
+    .apartado-der {
+        width: 100%;
+    }
+    .txt-apa1y3, .txt2-apa1y3 {
+        margin-left: 5%;
+    }
+    .txt-apa1y3 {
+        font-size: 33px;
+    }
+    .txt2-apa1y3 {
+        font-size: 25px;
+    }
+    .fila5 {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .apartado-abajo {
+        width: 40%;
+        font-size: 9px;
+    }
+    .apartado-arriba {
+        font-size: 18px;
+    }
+    .imagen-medio {
+        margin-left: 7%;
+    }
+    .imagen-derecha {
+        margin-right: 0%;
+    }
+    .imagen-izquierda {
+        margin-left: 7%;
+    }
+    .section-3 {
+        margin-top: 2%;
+        width: 450px;
+        margin-left: 3%;
+    }
+    .apa2-cuatroi {
+        width: 50%;
+        background-color: #2884e0;
+        margin-top: -1%;
+    }
+    .cuatroimagenes-2 {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .apa4-txt {
+        font-size: 35px;
+    }
+    .apa6-1 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .apa6-2 {
+        margin-left: 6%;
+        font-size: 15px;
+    }
+    .apa6 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}   
